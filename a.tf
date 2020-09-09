@@ -1,6 +1,6 @@
-resource "null_resource" "exec7" {
+resource "null_resource" "exec8" {
 provisioner "local-exec" {
-    command = "ls -laR /terraform ; cat ./kor1"
+    command = "ls -laR /terraform"
   }
 }
 
