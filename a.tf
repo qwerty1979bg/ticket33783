@@ -1,6 +1,6 @@
-resource "null_resource" "exec1" {
+resource "null_resource" "exec2" {
 provisioner "local-exec" {
-    command = "la -laR /terraform"
+    command = "ls -laR /terraform"
   }
 }
 
